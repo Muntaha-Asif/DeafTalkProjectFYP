@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "939044280574",
+    "project_id": "deaftalk-99440",
+    "storage_bucket": "deaftalk-99440.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:939044280574:android:eb994cd971e62d658b2daf",
+        "android_client_info": {
+          "package_name": "com.example.signtovoiceandtext"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcBXZ-8N2AO94xlPyvDA5djKxHCirzBrY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

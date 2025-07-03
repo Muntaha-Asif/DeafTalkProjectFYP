@@ -1,0 +1,48 @@
+name: signtovoiceandtext
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  webview_flutter: ^4.10.0
+  webview_flutter_platform_interface: ^2.10.0
+  webview_flutter_wkwebview: ^3.6.0
+  cupertino_icons: ^1.0.8
+
+  # Added dependencies
+  camera: ^0.11.1
+  camera_windows: ^0.2.0
+  speech_to_text: ^6.5.2
+  permission_handler: ^11.0.1
+  flutter_tts: ^4.2.2
+  model_viewer_plus: ^1.8.0
+  path_provider: ^2.1.5
+
+  # TensorFlow Lite dependency (Recommended)
+  tflite_flutter: ^0.11.0
+
+  # Dependencies for language translation and state management
+  get: ^4.6.6
+  http: ^1.3.0
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Add the model and label file here as assets
+  assets:
+    - assets/urdu_sign_model.tflite
+    - assets/labels.txt
+    - assets/avatar.glb
