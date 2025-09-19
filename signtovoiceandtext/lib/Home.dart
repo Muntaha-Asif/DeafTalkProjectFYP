@@ -4,6 +4,7 @@ import 'gestures_to_voice_and_text.dart';
 import 'Voice_To_Gestures_And_Text.dart';
 import 'localization_service.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'about_page.dart';
 import 'login.dart'; // Import LoginPage for redirection after logout
 
 class HomePage extends StatelessWidget {
@@ -102,8 +103,12 @@ class HomePage extends StatelessWidget {
               leading: Icon(Icons.info, color: Colors.green),
               title: Text("About".tr, style: TextStyle(color: Colors.green)),
               onTap: () {
-                // You can add About dialog or page navigation here
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => const AboutPage()),
+                );
               },
+
             ),
             ListTile(
               leading: Icon(Icons.logout, color: Colors.green),

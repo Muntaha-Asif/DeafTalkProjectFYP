@@ -7,7 +7,7 @@ import 'package:signtovoiceandtext/translation_service.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 import 'package:webview_flutter_wkwebview/webview_flutter_wkwebview.dart';
 import 'translation.dart';
-// import 'home.dart';
+import 'home.dart';
 import 'loading.dart';
 void main()async {
   
@@ -48,8 +48,8 @@ class MyApp extends StatelessWidget {
       locale: Get.deviceLocale, // Auto-detect device locale
       fallbackLocale: Locale('en', 'US'), // Fallback if locale is missing
       translations: AppTranslations(), // ✅ Register translations
-      // home: HomePage(),
-      home: LoadingPage(),
+       home: HomePage(),
+      // home: LoadingPage(),
     );
   }
 }
